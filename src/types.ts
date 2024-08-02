@@ -1,0 +1,1 @@
+export type Callback = (db: number) => any;
