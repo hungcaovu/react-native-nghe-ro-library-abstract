@@ -29,8 +29,7 @@ public class NgheRoLibraryModule extends NgheRoLibrarySpec {
   NgheRoLibraryModule(ReactApplicationContext context) {
     super(context);
     registerHeadsetReceiver(context);
-    Java.initialiseJUCE (context.getApplicationContext());
-
+    //Java.initialiseJUCE (context.getApplicationContext());
   }
   private void registerHeadsetReceiver(ReactContext reactContext) {
         headsetReceiver = new BroadcastReceiver() {

@@ -10,10 +10,10 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build/lib)
 
 add_library(react-native-nghe-ro-library            SHARED
-            ../cpp/native/react-native-nghe-ro-library.cpp
             cpp-adapter.cpp
 )
 
 target_link_libraries(
     react-native-nghe-ro-library
+    log
 )

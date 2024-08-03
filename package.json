@@ -2,6 +2,7 @@
   "name": "react-native-nghe-ro-library",
   "version": "0.1.0",
   "description": "NgheRo",
+  "priate": true,
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -86,9 +87,6 @@
     "react": "*",
     "react-native": "*"
   },
-  "workspaces": [
-    "example"
-  ],
   "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",

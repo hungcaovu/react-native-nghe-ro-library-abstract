@@ -1,5 +1,4 @@
 import { NativeModules, Platform } from 'react-native';
-import type { Callback } from './types';
 
 const LINKING_ERROR =
   `The package 'react-native-nghe-ro-library' doesn't seem to be linked. Make sure: \n\n` +
